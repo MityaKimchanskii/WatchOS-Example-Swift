@@ -16,6 +16,9 @@
 		3BD64DDC2906506A00C09BE1 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD64DDB2906506A00C09BE1 /* NotificationController.swift */; };
 		3BD64DDE2906506A00C09BE1 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD64DDD2906506A00C09BE1 /* ComplicationController.swift */; };
 		3BD64DE02906506B00C09BE1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BD64DDF2906506B00C09BE1 /* Assets.xcassets */; };
+		3BD64DF22906528500C09BE1 /* DetailInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD64DF02906528500C09BE1 /* DetailInterfaceController.swift */; };
+		3BD64DF32906528500C09BE1 /* MenuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD64DF12906528500C09BE1 /* MenuModel.swift */; };
+		3BD64DF529065FFC00C09BE1 /* RaitingsInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BD64DF429065FFC00C09BE1 /* RaitingsInterfaceController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +76,9 @@
 		3BD64DDF2906506B00C09BE1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3BD64DE12906506B00C09BE1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BD64DE22906506B00C09BE1 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		3BD64DF02906528500C09BE1 /* DetailInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailInterfaceController.swift; sourceTree = "<group>"; };
+		3BD64DF12906528500C09BE1 /* MenuModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuModel.swift; sourceTree = "<group>"; };
+		3BD64DF429065FFC00C09BE1 /* RaitingsInterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaitingsInterfaceController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +123,9 @@
 		3BD64DD62906506A00C09BE1 /* PizzaWatch WatchKit Extension */ = {
 			isa = PBXGroup;
 			children = (
+				3BD64DF02906528500C09BE1 /* DetailInterfaceController.swift */,
+				3BD64DF429065FFC00C09BE1 /* RaitingsInterfaceController.swift */,
+				3BD64DF12906528500C09BE1 /* MenuModel.swift */,
 				3BD64DD72906506A00C09BE1 /* InterfaceController.swift */,
 				3BD64DD92906506A00C09BE1 /* ExtensionDelegate.swift */,
 				3BD64DDB2906506A00C09BE1 /* NotificationController.swift */,
@@ -257,8 +266,11 @@
 			files = (
 				3BD64DDC2906506A00C09BE1 /* NotificationController.swift in Sources */,
 				3BD64DDE2906506A00C09BE1 /* ComplicationController.swift in Sources */,
+				3BD64DF32906528500C09BE1 /* MenuModel.swift in Sources */,
 				3BD64DDA2906506A00C09BE1 /* ExtensionDelegate.swift in Sources */,
+				3BD64DF529065FFC00C09BE1 /* RaitingsInterfaceController.swift in Sources */,
 				3BD64DD82906506A00C09BE1 /* InterfaceController.swift in Sources */,
+				3BD64DF22906528500C09BE1 /* DetailInterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
